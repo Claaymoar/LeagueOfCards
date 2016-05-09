@@ -2,6 +2,38 @@
 
 League Of Cards isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
 
+#What Is League Of Cards?
+
+League Of Cards is a card game that implements the champion mastery system. You get a deck of cards that contains all champions in the game. The deck gets shuffled and you receive 8 cards/champions. Your card will do damage based on the champion mastery level and you will fight against a computer controlled player. The computers stats are based off of a real players stats(You enter in a players username you would like to play against). You will place cards and attempt to kill the enemy and destroy their nexus.
+
+#Instructions
+
+Each player gets 8 cards (Each card is a champion from league of legends and their stats are based off of your mastery level on that champion) 
+Your cards have a Damage stat and also a Defence Stat ( Your damage and defence is based off of your mastery level added onto the cards based stats) 
+Click on a card in your deck to make it your active card(You can only have 1 active card)
+The pc will draw a card 
+Click on the pc’s card to attack it 
+When you attack a card they both attack each other.  
+If your damage is less then their defence, your attack will remove your damage amount from their defence. 
+If your damage is equal to their defence you will destroy their card. 
+If your damage is greater then their Defence you will destroy their card and the remaining damage is dealt to the enemies nexus 
+Win Conditions
+The first player’s nexus to get to 0 hp loses. 
+If a player runs out of cards their nexus is left undefended and they lose 
+
+#For The Judges
+
+The files containing my code for this app include:
+/app/User.php
+/app/helpers.php
+/app/Http/routes.php
+/app/Http/Controllers/UserController.php
+/resources/views/dashboard.blade.php
+/resources/views/instructions.blade.php
+/resources/views/playgame.blade.php
+/resources/views/welcome.blade.php
+/public/src/js/app.js
+
 # Written Using Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
