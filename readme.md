@@ -8,31 +8,31 @@ League Of Cards is a card game that implements the champion mastery system. You 
 
 #Instructions
 
-Each player gets 8 cards (Each card is a champion from league of legends and their stats are based off of your mastery level on that champion) 
-Your cards have a Damage stat and also a Defence Stat ( Your damage and defence is based off of your mastery level added onto the cards based stats) 
-Click on a card in your deck to make it your active card(You can only have 1 active card)
-The pc will draw a card 
-Click on the pc’s card to attack it 
-When you attack a card they both attack each other.  
-If your damage is less then their defence, your attack will remove your damage amount from their defence. 
-If your damage is equal to their defence you will destroy their card. 
-If your damage is greater then their Defence you will destroy their card and the remaining damage is dealt to the enemies nexus 
-Win Conditions
-The first player’s nexus to get to 0 hp loses. 
-If a player runs out of cards their nexus is left undefended and they lose 
+Each player gets 8 cards (Each card is a champion from league of legends and their stats are based off of your mastery level on that champion) <br />
+Your cards have a Damage stat and also a Defence Stat ( Your damage and defence is based off of your mastery level added onto the cards based stats)  <br />
+Click on a card in your deck to make it your active card(You can only have 1 active card)<br />
+The pc will draw a card <br />
+Click on the pc’s card to attack it <br />
+When you attack a card they both attack each other.  <br />
+If your damage is less then their defence, your attack will remove your damage amount from their defence. <br />
+If your damage is equal to their defence you will destroy their card. <br />
+If your damage is greater then their Defence you will destroy their card and the remaining damage is dealt to the enemies nexus <br />
+Win Conditions<br />
+The first player’s nexus to get to 0 hp loses.<br /> 
+If a player runs out of cards their nexus is left undefended and they lose <br />
 
 #For The Judges
 
-The files containing my code for this app include:
-/app/User.php
-/app/helpers.php
-/app/Http/routes.php
-/app/Http/Controllers/UserController.php
-/resources/views/dashboard.blade.php
-/resources/views/instructions.blade.php
-/resources/views/playgame.blade.php
-/resources/views/welcome.blade.php
-/public/src/js/app.js
+The files containing my code for this app include:<br />
+/app/User.php<br />
+/app/helpers.php<br />
+/app/Http/routes.php<br />
+/app/Http/Controllers/UserController.php<br />
+/resources/views/dashboard.blade.php<br />
+/resources/views/instructions.blade.php<br />
+/resources/views/playgame.blade.php<br />
+/resources/views/welcome.blade.php<br />
+/public/src/js/app.js<br />
 
 # Written Using Laravel PHP Framework
 
